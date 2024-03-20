@@ -440,6 +440,8 @@ func main() {
 </ol>
 
 
+[Перейти к русскому](#Russian)
+
 <a name="English"></a>
 # English
 <p id="en"><h3>Tasks on Lv2 at the Wildberries internship</h3></p>
