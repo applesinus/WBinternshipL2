@@ -444,9 +444,9 @@ func main() {
 # English
 <p id="en"><h3>Tasks on Lv2 at the Wildberries internship</h3></p>
 
-[Tasks](#tasks-ru) / [Listings](#listings-ru) / [Patterns](#patterns-ru)
+[Tasks](#tasks-en) / [Listings](#listings-en) / [Patterns](#patterns-en)
 
-<a name="tasks-ru"></a>
+<a name="tasks-en"></a>
 ### Tasks
 
 <p>Each <b>task</b> is one folder with the appropriate name in the develop folder, launched via the command line (or unless otherwise stated, from the main.go file).</p>
