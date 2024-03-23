@@ -535,7 +535,6 @@ func main() {
            <li>-n - "line num", print line number</li>
        </ul>
    </li>
-   <li>
 <li>
        <p><b>CUT UTILITY</b></p>
        <p>Implement a utility similar to the console command cut (man cut). The utility should receive lines via STDIN, split them by delimiter (TAB) into columns and output the requested ones.</p>
