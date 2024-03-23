@@ -3,7 +3,8 @@
 <p>Очевидным вариантом решения могло бы стать выражение при использованием select, которое бы реализовывало эту связь, однако иногда неизвестно общее число done-каналов, с которыми вы работаете в рантайме. В этом случае удобнее использовать вызов единственной функции, которая, приняв на вход один или более or-каналов, реализовывала бы весь функционал.</p>
 <p><b>ОПРЕДЕЛЕНИЕ ФУНКЦИИ:</b></p>
 <p>var or func(channels ...<- chan interface{}) <- chan interface{}</p>
-<p>[Пример использования функции ниже](#example)</p>
+    
+[Пример использования функции ниже](#example)
 
 
 <p><b>OR CHANNEL</b></p>
@@ -11,7 +12,8 @@
 <p>The obvious solution would be to use a select expression to implement this relationship, but sometimes the total number of done channels you are working with at runtime is unknown. In this case, it is more convenient to use a call to a single function, which, having received one or more or-channels as input, would implement all the functionality.</p>
 <p><b>FUNCTION DEFINITION:</b></p>
 <p>var or func(channels ...<- chan interface{}) <- chan interface{}</p>
-<p>[An example of using the function:](#example)</p>
+    
+[An example of using the function:](#example)
 
 <a name="example"></a>
 
