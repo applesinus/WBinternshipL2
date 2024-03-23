@@ -16,7 +16,7 @@
     <li>В результате каждое слово должно встречаться только один раз.</li>
 </ul>
 
-
+<hr>
 <p><b>SEARCH FOR ANAGRAMS IN THE DICTIONARY</b></p>
 <p>Write a function to search for all sets of anagrams in a dictionary.</p>
 <p>For example:</p>

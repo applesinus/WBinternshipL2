@@ -7,7 +7,7 @@
     <li>-s - "separated" - только строки с разделителем</li>
 </ul>
 
-
+<hr>
 <p><b>CUT UTILITY</b></p>
 <p>Implement a utility similar to the console command cut (man cut). The utility should receive lines via STDIN, split them by delimiter (TAB) into columns and output the requested ones.</p>
 <p><b>Implement the utility's support for the following keys:</b></p>

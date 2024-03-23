@@ -26,7 +26,7 @@
     <li>Web-сервер должен запускаться на порту указанном в конфиге и выводить в лог каждый обработанный запрос.</li>
 </ul>
 
-
+<hr>
 <p><b>HTTP SERVER</b></p>
 <p>Implement an HTTP server for working with a calendar. As part of the assignment, you must work strictly with the standard HTTP library.</p>
 <p>As part of the task you must:</p>

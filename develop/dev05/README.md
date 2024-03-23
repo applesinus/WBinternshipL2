@@ -12,7 +12,7 @@
     <li>-n - "line num", напечатать номер строки</li>
 </ul>
 
-
+<hr>
 <p><b>GREP UTILITY</b></p>
 <p>Implement the filtering utility by analogy with the console utility (man grep - see the description and main parameters).</p>
 <p><b>Implement the utility's support for the following keys:</b></p>

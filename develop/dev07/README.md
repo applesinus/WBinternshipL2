@@ -6,7 +6,7 @@
     
 [Пример использования функции ниже](#example)
 
-
+<hr>
 <p><b>OR CHANNEL</b></p>
 <p>Implement a function that will combine one or more done channels into a single channel if one of its component channels closes.</p>
 <p>The obvious solution would be to use a select expression to implement this relationship, but sometimes the total number of done channels you are working with at runtime is unknown. In this case, it is more convenient to use a call to a single function, which, having received one or more or-channels as input, would implement all the functionality.</p>

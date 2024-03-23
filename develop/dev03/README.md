@@ -15,7 +15,7 @@
     <li>-h — сортировать по числовому значению с учетом суффиксов</li>
 </ul>
 
-
+<hr>
 <p><b>SORT UTILITY</b></p>
 <p>Sort the lines in the file by analogy with the console utility sort (man sort - see the description and main parameters): the input is a file of unsorted lines, the output is a file with sorted lines.</p>
 <p><b>Implement the utility's support for the following keys:</b></p>

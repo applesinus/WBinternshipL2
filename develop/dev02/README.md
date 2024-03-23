@@ -18,7 +18,7 @@
     <li>В случае если была передана некорректная строка, функция должна возвращать ошибку. Написать unit-тесты.</li>
 </ul>
 
-
+<hr>
 <p><b>UNPACKING TASK</b></p>
 <p>Create a Go function that performs primitive unpacking of a string containing repeated characters/runes, for example:</p>
 <ul>
