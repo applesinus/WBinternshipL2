@@ -20,8 +20,11 @@ import (
 )
 
 func main() {
+	// getting time from ntp
 	time, err := ntp.Time("0.beevik-ntp.pool.ntp.org")
+
 	if err != nil {
+		// if there's an error, print it to stderr and exit with code 1
 		fmt.Fprintf(os.Stderr, "Error while getting time from ntp: %v\n", err)
 		os.Exit(1)
 	} else {
