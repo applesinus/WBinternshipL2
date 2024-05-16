@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events for Month</title>
+    <style>
+        /* Пример стилей для таблицы */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Events for Month</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>User ID</th>
+                <th>Date</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody id="eventsTableBody">
+            <!-- Сюда будут вставляться данные из events_for_month -->
+        </tbody>
+    </table>
+
+    <script>
+        // Функция для отрисовки данных в таблице
+        function renderEvents(events) {
+            var tableBody = document.getElementById("eventsTableBody");
+            tableBody.innerHTML = ""; // Очищаем таблицу
+
+            // Проходимся по каждому событию и добавляем его в таблицу
+            events.forEach(function(event) {
+                var row = tableBody.insertRow();
+                row.insertCell().textContent = event.id;
+                row.insertCell().textContent = event.user_id;
+                row.insertCell().textContent = event.date;
+                row.insertCell().textContent = event.details;
+            });
+        }
+
+        // Пример запроса на сервер для получения данных
+        fetch("/events_for_month")
+            .then(response => response.json())
+            .then(data => renderEvents(data))
+            .catch(error => console.error("Error fetching events:", error));
+    </script>
+</body>
+</html>
